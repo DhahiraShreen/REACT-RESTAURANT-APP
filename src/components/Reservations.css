@@ -1,0 +1,40 @@
+.reservations {
+  padding: 20px;
+}
+
+.reservations h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.reservations form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservations form label {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.reservations form input {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.reservations form button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reservations form button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,38 @@
+.home {
+  background-image: url('../../public/images/home.jpg'); /* Relative path from src/components/Home.css */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black; /* Set the default text color to black */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.home-img {
+  display: none; /* Hide the image element since we're using it as a background */
+}
+
+.home-text {
+  max-width: 600px; /* Limit the width of the text content */
+  background-color: rgba(255, 255, 255, 0.7); /* Lighten the background color for better readability with black text */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.home-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: black; /* Ensure header text is black */
+}
+
+.home-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: black; /* Ensure paragraph text is black */
+}
